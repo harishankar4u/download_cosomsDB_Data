@@ -20,6 +20,7 @@ namespace DataExtractCosmosDBToMongoDB.Handler
                 Directory.CreateDirectory(detailsFolder);
             }
 
+
             try
             {
                 using var client = new CosmosClient(value.connectionString);
